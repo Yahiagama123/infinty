@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include infinty_test *.css
+recursive-include infinty_test *.csv
+recursive-include infinty_test *.html
+recursive-include infinty_test *.ico
+recursive-include infinty_test *.js
+recursive-include infinty_test *.json
+recursive-include infinty_test *.md
+recursive-include infinty_test *.png
+recursive-include infinty_test *.py
+recursive-include infinty_test *.svg
+recursive-include infinty_test *.txt
+recursive-exclude infinty_test *.pyc
