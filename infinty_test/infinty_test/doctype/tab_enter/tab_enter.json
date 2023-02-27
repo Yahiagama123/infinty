@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-27 16:17:26.396882",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exit",
+  "car",
+  "driver",
+  "count_exit",
+  "status",
+  "enter_count",
+  "diff"
+ ],
+ "fields": [
+  {
+   "fieldname": "car",
+   "fieldtype": "Link",
+   "label": "car",
+   "options": "tab_exit"
+  },
+  {
+   "fieldname": "driver",
+   "fieldtype": "Link",
+   "label": "driver",
+   "options": "driver"
+  },
+  {
+   "fetch_from": "car.count",
+   "fieldname": "count_exit",
+   "fieldtype": "Data",
+   "label": "count exit",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "status",
+   "options": "Enter\nExit"
+  },
+  {
+   "fieldname": "enter_count",
+   "fieldtype": "Float",
+   "label": "enter count"
+  },
+  {
+   "fieldname": "diff",
+   "fieldtype": "Data",
+   "label": "diff"
+  },
+  {
+   "fieldname": "exit",
+   "fieldtype": "Link",
+   "label": "exit",
+   "options": "exit_list"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-27 16:39:13.968565",
+ "modified_by": "Administrator",
+ "module": "Infinty Test",
+ "name": "tab_enter",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

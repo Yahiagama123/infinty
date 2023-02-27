@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Car_num.####",
+ "creation": "2023-02-27 16:12:55.121911",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "car_num",
+  "driver",
+  "date",
+  "count"
+ ],
+ "fields": [
+  {
+   "fieldname": "car_num",
+   "fieldtype": "Link",
+   "label": "car",
+   "options": "cars"
+  },
+  {
+   "fieldname": "driver",
+   "fieldtype": "Link",
+   "label": "driver",
+   "options": "driver"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Datetime",
+   "label": "date"
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Float",
+   "label": "count"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-27 16:12:55.121911",
+ "modified_by": "Administrator",
+ "module": "Infinty Test",
+ "name": "tab_exit",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
