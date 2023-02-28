@@ -9,8 +9,9 @@
  "field_order": [
   "car_num",
   "driver",
-  "date",
-  "count"
+  "time",
+  "count",
+  "return"
  ],
  "fields": [
   {
@@ -26,20 +27,27 @@
    "options": "driver"
   },
   {
-   "fieldname": "date",
-   "fieldtype": "Datetime",
-   "label": "date"
-  },
-  {
    "fieldname": "count",
    "fieldtype": "Float",
    "label": "count"
+  },
+  {
+   "default": "0",
+   "fieldname": "return",
+   "fieldtype": "Check",
+   "label": "return",
+   "read_only": 1
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "time"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-02-27 16:12:55.121911",
+ "modified": "2023-02-28 14:14:13.686184",
  "modified_by": "Administrator",
  "module": "Infinty Test",
  "name": "tab_exit",
